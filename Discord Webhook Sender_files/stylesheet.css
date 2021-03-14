@@ -1,0 +1,117 @@
+/*   
+  Project by Zua 
+  https://github.com/thatziv/webhook 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+body {
+    background: #00224f;
+}
+
+#container {
+    margin-top: 0px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    background: #001d42; 
+    padding: 25px;
+	color: #cccccc
+}
+
+#bottomcontainer {
+    margin-top: 200px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    background: #001d42; 
+    padding: 25px;
+	color: #cccccc
+}
+
+#footer {
+    position: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.37); 
+    color: white;
+    text-align: center;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.small {
+	text-align: center;
+	color: #cccccc;
+	margin-top: 8px;
+	font-size: 20px
+}
+
+.ok {
+	margin-top: 30px
+}
+
+p {
+    font-size: 27px;
+	color: #cccccc;
+}
+
+h {
+	color: #ffffff;
+    margin-top: 500px;
+    font-size: 60px;
+}
+
+h1 {
+	color: #eeeeee	
+}
+
+a, a:visited {
+    color: rgb(129, 129, 129)
+}
+
+#link, #username, #content, #avatar {
+    font-size: 25px;
+    background-color: #001d42;
+    width: 75%;
+    padding: 20px;
+    border: 2px solid #003e8c;
+	color: #cccccc;
+	
+}
+
+#btn {
+    width: 35%;
+    font-size: 25px;
+    margin-top: 25px;
+    padding: 17px;
+    background-color: #002d69;
+    border: 2px solid #003e8c;
+}
+
+#btn:hover { 
+    background-color: #00367d;
+}
+
+#log {
+    text-align: center;
+    width: 5%;
+    background-color: rgb(110, 255, 43);
+    color: green;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #333333;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #222222;
+}
